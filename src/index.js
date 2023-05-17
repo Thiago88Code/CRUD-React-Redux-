@@ -2,9 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
 import "./index.css"
-import {configureStore} from "@reduxjs/toolkit"
-import {Provider} from "react-redux"
-import UsersReducer from"./features/UsersReducers"
+import { configureStore } from "@reduxjs/toolkit"
+import { Provider } from "react-redux"
+import UsersReducer from "./features/UsersReducers"
 
 const store = configureStore({
   reducer: {

@@ -1,4 +1,4 @@
-.container1{
+.container1 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -6,13 +6,14 @@
     margin: 25px;
     margin-bottom: 50px;
 }
-.container2{
+
+.container2 {
     display: block;
     width: 400px;
-    
+
 }
 
-.container2 div{
+.container2 div {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -22,20 +23,20 @@
     margin-left: 100px;
     margin-bottom: 50px;
     border-radius: 5px;
-    box-shadow: 1px 1px 2px 2px #888888    
+    box-shadow: 1px 1px 2px 2px #888888
 }
-.container2 div button{
+
+.container2 div button {
     margin-top: 5px;
     border-radius: 5px;
     padding: 3px 35px;
-    border-color:white;
-    
+    border-color: white;
+
 }
-button:hover{
+
+button:hover {
     color: #fff;
-    background:#242424;
+    background: #242424;
     transition: 0.5s;
 
 }
-
-
