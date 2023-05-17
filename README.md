@@ -2,6 +2,9 @@
 
 This is a small project aimed at beginners in these two technologies whose objective is to demonstrate, through a simple "CRUD", the functioning of "Redux" in the "React" environment.
 
+https://github.com/Thiago88Code/CRUD-React-Redux-/assets/74308939/4d7f28d4-bec6-453a-9df0-ff98240f5aa9
+
+
 ### 📋 Prerequisites
 
 You must have Node and Npm previously installed.
