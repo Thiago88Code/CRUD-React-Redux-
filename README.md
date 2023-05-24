@@ -80,15 +80,15 @@ object.
     },
   }
 ```
-## run migrations:
+### run migrations:
 ```
 npm run migration
 ```
-## run seeds:
+### run seeds:
 ```
 npm run seed
 ```
-## run test:
+### run test:
 ```
 npm run test
 ```
