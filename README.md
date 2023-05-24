@@ -19,8 +19,7 @@ You must have installed:
 - Node and Npm
 - Postgres
 
-# Getting Started 
-
+### Getting Started 
 
 ### 🔧 Installing all dependencies using npm:
 
@@ -29,13 +28,13 @@ npm install
 ```
 
 To run the api:
-
-### `npm start`
-
+```
+npm start
+```
 ============================================
 
 
-###  Database creation:
+###  Database creation
 
 Create your Postgres database according to your preferences and fill on "knexfile.js" in the "prod"
 object.
@@ -58,7 +57,7 @@ object.
 ```
 ## Test environment
 
-###  Database creation:
+### Database creation
 
 Create your Postgres database according to your preferences and fill on "knexfile.js" in the "test"
 object.
@@ -68,10 +67,10 @@ object.
     client: 'postgres',
     version: '8.9.0',
     connection: {
-      host: 'localhost',
-      user: 'postgres', 
-      database: 'db_test',//your database
-      password: 'cassiaYEller',//your password
+      host: '',
+      user: '', 
+      database: ''
+      password: ''
     },
     migrations: {
       directory: 'src/migrations',
