@@ -34,15 +34,13 @@ To run the api:
 
 ============================================
 
-## Test environment
 
 ###  Database creation:
 
-Create your Postgres database according to your preferences and fill on "knexfile.js" in the "test"
-object so that you can run the migrations and seeds
+Create your Postgres database according to your preferences and fill on "knexfile.js" in the "prod"
+object.
 
 ```
-module.exports = { 
   prod: {
     client: 'postgres',
     version: '8.9.0',
@@ -56,8 +54,33 @@ module.exports = {
       directory: 'src/migrations',
     },
   },
-};
+
 ```
+## Test environment
+
+###  Database creation:
+
+Create your Postgres database according to your preferences and fill on "knexfile.js" in the "test"
+object.
+
+```
+  test: {
+    client: 'postgres',
+    version: '8.9.0',
+    connection: {
+      host: 'localhost',
+      user: 'postgres', 
+      database: 'db_test',//your database
+      password: 'cassiaYEller',//your password
+    },
+    migrations: {
+      directory: 'src/migrations',
+    },
+    seeds: {
+      directory: 'src/seeds',
+    },
+  }
+
 ## run migrations:
 ```
 ### `npm run migration`
