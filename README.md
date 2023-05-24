@@ -79,15 +79,15 @@ object.
     },
   }
 ```
-### run migrations
+### To run migrations
 ```
 npm run migration
 ```
-### run seeds
+### To run seeds
 ```
 npm run seed
 ```
-### run test
+### To run tests
 ```
 npm run test
 ```
