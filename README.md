@@ -54,9 +54,9 @@ object.
   },
 
 ```
-## Test environment
 
-### Database configuration
+
+### Database configuration in Test environment
 
 Create your Postgres database according to your preferences and fill on "knexfile.js" in the "test"
 object.
