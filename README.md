@@ -19,15 +19,15 @@ You must have installed:
 - Node and Npm
 - Postgres
 
-### Getting Started 
+### Getting Started:
 
-### 🔧 Installing all dependencies using npm:
+### 🔧 Installing all dependencies using npm
 
 ```
 npm install 
 ```
 
-### To run this api:
+### To run this api
 ```
 npm start
 ```
@@ -79,15 +79,15 @@ object.
     },
   }
 ```
-### run migrations:
+### run migrations
 ```
 npm run migration
 ```
-### run seeds:
+### run seeds
 ```
 npm run seed
 ```
-### run test:
+### run test
 ```
 npm run test
 ```
