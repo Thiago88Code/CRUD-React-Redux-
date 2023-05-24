@@ -4,7 +4,7 @@ Welcome! This is an API that simulates the functionality of a banking API. Key f
 
 - Secure Authentication: ensuring that only authorized users can access information and perform operations.
 
-- Transactions: deposit, withdrawal, and payment operations.
+- Transactions
 
 - Transfers.
 
