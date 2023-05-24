@@ -34,7 +34,7 @@ npm start
 ============================================
 
 
-###  Database creation
+###  Database configuration
 
 Create your Postgres database according to your preferences and fill on "knexfile.js" in the "prod"
 object.
@@ -57,7 +57,7 @@ object.
 ```
 ## Test environment
 
-### Database creation
+### Database configuration
 
 Create your Postgres database according to your preferences and fill on "knexfile.js" in the "test"
 object.
