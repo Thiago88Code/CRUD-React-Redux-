@@ -1,13 +1,26 @@
-# CRUD-React-Redux
+# FinancialManager-Api
 
-This is a small project aimed at beginners in these two technologies whose objective is to demonstrate, through a simple "CRUD", the functioning of "Redux" in the "React" environment.
+Bem-vindo! Esta é uma API que simula o funcionamento de uma API bancária, 
+Principais funcionalidades da API:
 
-https://github.com/Thiago88Code/CRUD-React-Redux-/assets/74308939/4d7f28d4-bec6-453a-9df0-ff98240f5aa9
+1. Autenticação Segura: garantindo que apenas usuários autorizados possam acessar as informações e executar operações.
 
+2. Transações : operações de depósito, saque e pagamento.
+
+3. Transferências
+
+4. Saldo:  
+
+A documentação desta API está atualmente em construção.
 
 ### 📋 Prerequisites
 
-You must have Node and Npm previously installed.
+You must have installed:
+- Node and Npm
+- Postgres
+
+# Getting Started 
+
 
 ### 🔧 Installing all dependencies using npm:
 
@@ -15,18 +28,46 @@ You must have Node and Npm previously installed.
 npm install 
 ```
 
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
+To run the api:
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+============================================
+
+## Test environment
+
+###  Database creation:
+
+Create your Postgres database according to your preferences and fill on "knexfile.js" in the "test"
+object so that you can run the migrations and seeds
+
+```
+module.exports = { 
+  prod: {
+    client: 'postgres',
+    version: '8.9.0',
+    connection: {
+      host: '',
+      user: '',
+      database: '',
+      password: '',
+    },
+    migrations: {
+      directory: 'src/migrations',
+    },
+  },
+};
+```
+## run migrations:
+### `npm run migration`
+
+## run seeds:
+### `npm run seed`
+
+## run test:
+### `npm run test`
+
+
 
 ⌨️ com ❤️ por [Thiago Souza](https://github.com/Thiago88Code) 😊
 
