@@ -27,7 +27,7 @@ You must have installed:
 npm install 
 ```
 
-To run the api:
+### To run the api:
 ```
 npm start
 ```
