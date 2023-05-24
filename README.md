@@ -19,7 +19,7 @@ You must have installed:
 - Node and Npm
 - Postgres
 
-### Getting Started:
+## Getting Started:
 
 ### 🔧 Installing all dependencies using npm
 
