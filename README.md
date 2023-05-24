@@ -1,17 +1,17 @@
 # FinancialManager-Api
 
-Bem-vindo! Esta é uma API que simula o funcionamento de uma API bancária, 
-Principais funcionalidades da API:
+Welcome! This is an API that simulates the functionality of a banking API. Key features of the API include:
 
-- Autenticação Segura: garantindo que apenas usuários autorizados possam acessar as informações e executar operações.
+- Secure Authentication: ensuring that only authorized users can access information and perform operations.
 
-- Transações : operações de depósito, saque e pagamento.
+- Transactions: deposit, withdrawal, and payment operations.
 
-- Transferências
+- Transfers.
 
-- Saldo:  
+- Balance.
 
-A documentação desta API está atualmente em construção.
+The documentation for this API is currently under construction.
+
 
 ### 📋 Prerequisites
 
