@@ -59,14 +59,17 @@ module.exports = {
 };
 ```
 ## run migrations:
+```
 ### `npm run migration`
-
+```
 ## run seeds:
+```
 ### `npm run seed`
-
+```
 ## run test:
+```
 ### `npm run test`
-
+```
 
 
 ⌨️ com ❤️ por [Thiago Souza](https://github.com/Thiago88Code) 😊
