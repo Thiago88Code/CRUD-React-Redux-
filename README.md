@@ -3,6 +3,9 @@
 
 This is a small project whose objective is to create a CRUD using Redux to demonstrate, in a basic way, the state flow of an app.
 
+https://github.com/Thiago88Code/CRUD-React-Redux-/assets/74308939/bf06a27c-a7df-47e0-afcd-3060e928a0f6
+
+
 ### 📋 Prerequisites
 
 You must have Node and Npm previously installed.
