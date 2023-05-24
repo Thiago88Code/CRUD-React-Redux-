@@ -27,7 +27,7 @@ You must have installed:
 npm install 
 ```
 
-### To run the api:
+### To run this api:
 ```
 npm start
 ```
@@ -79,18 +79,18 @@ object.
       directory: 'src/seeds',
     },
   }
-
+```
 ## run migrations:
 ```
-### `npm run migration`
+npm run migration
 ```
 ## run seeds:
 ```
-### `npm run seed`
+npm run seed
 ```
 ## run test:
 ```
-### `npm run test`
+npm run test
 ```
 
 
