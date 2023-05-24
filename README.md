@@ -3,13 +3,13 @@
 Bem-vindo! Esta é uma API que simula o funcionamento de uma API bancária, 
 Principais funcionalidades da API:
 
-1. Autenticação Segura: garantindo que apenas usuários autorizados possam acessar as informações e executar operações.
+- Autenticação Segura: garantindo que apenas usuários autorizados possam acessar as informações e executar operações.
 
-2. Transações : operações de depósito, saque e pagamento.
+- Transações : operações de depósito, saque e pagamento.
 
-3. Transferências
+- Transferências
 
-4. Saldo:  
+- Saldo:  
 
 A documentação desta API está atualmente em construção.
 
@@ -31,7 +31,6 @@ npm install
 ```
 npm start
 ```
-============================================
 
 
 ###  Database configuration
